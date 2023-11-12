@@ -2170,6 +2170,9 @@ ul {
 
   /* SECTION 2 DESKTOP */
 
+  .section-main-two {
+    padding: 120px 0;
+  }
   .main-icons-container {
     display: flex;
     align-items: center;
@@ -2210,8 +2213,8 @@ ul {
   /* SECTION 3 DESKTOP */
 
   .section-main-three {
-    padding-top: 0;
     display: block;
+    padding-top: 0;
   }
 
   .header {
