@@ -543,9 +543,6 @@ ul {
     align-items: center;
   }
 
-  .label-subscribe {
-  }
-
   .input-subscribe {
     width: 290px;
     height: 40px;
@@ -1657,16 +1654,10 @@ ul {
     fill: var(--success-color);
   }
 
-  .newsletter-div {
-  }
-
   .form-subscribe {
     display: flex;
     gap: 24px;
     align-items: center;
-  }
-
-  .newsletter-label {
   }
 
   .input-subscribe {
