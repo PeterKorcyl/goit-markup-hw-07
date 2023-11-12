@@ -1170,7 +1170,7 @@ ul {
     display: none;
   }
 
-  .section {
+  .section-main-two {
     margin-bottom: 96px;
   }
 
@@ -1180,15 +1180,21 @@ ul {
     padding: 0 15px;
   }
 
+  .header-container {
+    display: flex;
+  }
   /* HEADER TABLET */
 
   .header-top {
-    display: flex;
+    outline: 1px solid var(--cornflower-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
   .nav {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
 
   .logo-header {
@@ -2106,10 +2112,6 @@ ul {
 
   /* HEADER DESKTOP */
 
-  .logo-header {
-    margin-right: 76px;
-  }
-
   .page-description {
     font-size: 16px;
     line-height: 1.5;
@@ -2120,9 +2122,12 @@ ul {
   .list-header {
     flex-direction: row;
     gap: 40px;
+  }
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
     margin-left: 332px;
   }
-
   /* SECTION 1 DESKTOP */
 
   .section-main {
