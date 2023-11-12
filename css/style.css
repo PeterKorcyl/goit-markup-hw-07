@@ -189,7 +189,7 @@ ul {
     (min-resolution: 2dppx) {
     .section-main {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office@x2.jpg);
+        url(../images/people-in-office@x2.jpg);
     }
   }
 
@@ -1307,7 +1307,7 @@ ul {
     (min-resolution: 2dppx) {
     .main-section {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office@x2.jpg);
+        url(../images/people-in-office@x2.jpg);
     }
   }
 
@@ -2133,7 +2133,7 @@ ul {
     (min-resolution: 2dppx) {
     .section-main {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/main/people-office@x2.jpg);
+        url(../images/people-in-office@x2.jpg);
     }
   }
 
