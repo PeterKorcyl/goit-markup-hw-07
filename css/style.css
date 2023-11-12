@@ -1589,7 +1589,16 @@ ul {
 
   .logo-footer {
     display: block;
+    text-align: start;
     margin: 0;
+    color: var(--primary-brand-color);
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
   }
 
   .logo-footer-span {
@@ -2269,6 +2278,14 @@ ul {
     display: block;
     text-align: start;
     margin: 0;
+    color: var(--primary-brand-color);
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
   }
 
   .footer-container-subscribe {
