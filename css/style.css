@@ -70,7 +70,6 @@ ul {
 /* ================================================= MOBILE ========================================= */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .section {
-    margin-bottom: 96px;
   }
 
   .container {
@@ -234,6 +233,9 @@ ul {
 
   /* SECTION 2 MOBILE */
 
+  .section-main-two {
+    padding: 96px 0;
+  }
   .main-icons-container {
     display: none;
   }
@@ -243,7 +245,6 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 72px;
-    margin-top: 96px;
   }
 
   .goal {
@@ -287,14 +288,12 @@ ul {
     text-transform: capitalize;
     color: var(--text-color);
     margin-bottom: 72px;
-    padding-top: 96px;
   }
 
   .list-team {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding-bottom: 96px;
   }
 
   .our-team-card {
@@ -312,7 +311,8 @@ ul {
   }
 
   .our-team {
-    background-color: var(--cloud-color);
+    background-color: var(--light-color);
+    padding: 96px 0;
   }
 
   .team-card {
@@ -379,6 +379,9 @@ ul {
 
   /* SECTION 5 MOBILE */
 
+  .section-customers {
+    padding: 96px 0;
+  }
   .header-customers {
     text-align: center;
     color: var(--dark-color);
@@ -480,7 +483,7 @@ ul {
 
   .footer {
     background-color: var(--dark-color);
-    padding: 100px 0;
+    padding: 100px 0 96px 0;
   }
 
   .footer-socials-link {
