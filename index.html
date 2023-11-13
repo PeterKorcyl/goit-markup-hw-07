@@ -35,6 +35,14 @@
             <a class="page-description link " href="">Contacts</a>
           </li>
         </ul>
+        <menu class="menu-hamburger">
+          <button type="button" class="button-hamburger menu-toggle js-open-menu " aria-expanded="false"
+            aria-controls="mobile-menu">
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#icon-hamburger"></use>
+            </svg>
+          </button>
+        </menu>
       </nav>
 
       <address class="address">
@@ -49,14 +57,7 @@
         </ul>
 
       </address>
-      <menu class="menu-hamburger">
-        <button type="button" class="button-hamburger menu-toggle js-open-menu " aria-expanded="false"
-          aria-controls="mobile-menu">
-          <svg width="32" height="22">
-            <use href="./images/icons.svg#icon-hamburger"></use>
-          </svg>
-        </button>
-      </menu>
+
     </div>
   </header>
 
@@ -470,11 +471,13 @@
           <input class="checkbox-input visually-hidden" type="checkbox" id="user-privacy" name="user-privacy"
             value="true" required>
           <label class="checkbox-label" for="user-privacy">
-            <span class="checbox-icon">
-              <svg width="10" height="8" class="svg-frame">
+
+            <span class="svg-frame">
+              <svg width="10" height="8">
                 <use href="./images/icons.svg#icon-checbox-icon"></use>
               </svg>
             </span>
+
             I accept the terms and conditions of the <a href="#" class="policy-link">Privacy Policy</a>
           </label>
         </div>
