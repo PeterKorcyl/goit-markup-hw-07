@@ -172,7 +172,7 @@ ul {
     background-color: var(--dark-color);
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/people-office.jpg);
+      url(../images/people-in-office.jpg);
     max-width: 767px;
     background-position: center;
     background-size: cover;
@@ -1310,7 +1310,7 @@ ul {
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .main-section {
+    .section-main {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-in-office@x2.jpg);
     }
